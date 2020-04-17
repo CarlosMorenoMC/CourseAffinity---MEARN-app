@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Working...
+<p align="center"> Web application to promote courses and make reviews, comments, scores ...
     <br> 
 </p>
 
