@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
+ <img src="https://www.graphicsprings.com/filestorage/stencils/67b159abd526cadf2cbd135ce25bb452.png?width=500&height=500" alt="Project logo"></a>
 </p>
 <h3 align="center">Course Affinity</h3>
 

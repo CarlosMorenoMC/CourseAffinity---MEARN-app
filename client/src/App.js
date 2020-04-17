@@ -1,22 +1,40 @@
 import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import routes from './config/routes';
+
 import './App.scss';
-import { DatePicker } from 'antd';
+
+
+import Home from './pages/home';
+import Contact from './pages/contact';
+import Admin from './pages/admin';
+import Signin from './pages/admin/signin';
 
 function App() {
 
-
-  function onChange(date, dateString) {
-    console.log(date, dateString);
-  }
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Course Affinity</h1>
-        <DatePicker onChange={onChange} />
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        {routes.map((route, index) =>{
+          return (
+            <RoutesWithSubRoutes key={index} {...route}/>
+          )
+        })}
+      </Switch>
+    </Router>
   );
+}
+
+
+const RoutesWithSubRoutes = (route) =>{
+  console.log(route);
+  return(
+    <Route
+      path={route.path}
+      exact={route.exact}
+      render={props => <route.component routes={route.routes} {...props}/>}
+      />
+  )
 }
 
 export default App;
