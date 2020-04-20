@@ -1,0 +1,62 @@
+@import '../../scss/index.scss';
+
+.menu-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    button {
+        color: $primary-color;
+
+        &:hover {
+            color: $primary-color-hover;
+        }
+        &:focus,
+        &:active{
+            color: $primary-color;
+        }
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+
+        &-logo {
+            height: 50px;
+            padding: 3px 10px;
+        }
+
+        &-brand{
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            margin: 0;
+            padding: 0 5px;
+
+            &-name{
+                margin: 0;
+                color: $font-light;
+                height: 14px;
+
+                &-secondary{
+                    margin: 0;
+                    color: $primary-color;
+                }
+            }
+            
+        }
+    }
+
+    &__right {
+        position: absolute;
+        right: 0;
+    }
+}
+
+.menu-sider {
+    position: fixed;
+    left: 0;
+    top: 75px;
+    overflow: auto;
+    height: 100vh;
+}

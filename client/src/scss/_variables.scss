@@ -1,0 +1,44 @@
+$defaultFontSize: 16px;
+
+$primary-color:  #90bee8;
+$primary-color-hover:  rgb(22, 84, 109);
+$secondary-color: #e4c52c;
+
+$menu-color: rgb(48, 49, 58);
+
+$font-light: rgb(248, 245, 245);
+$font-grey-light: rgb(216, 216, 216);
+$font-grey: rgb(172, 172, 172);
+$font-grey-dark: rgb(80, 79, 79);
+$font-dark: rgb(41, 41, 41);
+
+$border-light: rgb(248, 245, 245);
+$border-grey-light: rgb(216, 216, 216);
+$border-grey: rgb(172, 172, 172);
+$border-grey-dark: rgb(80, 79, 79);
+$border-dark: rgb(41, 41, 41);
+
+$background-light: rgb(248, 245, 245);
+$background-grey-light: rgb(216, 216, 216);
+$background-grey: rgb(172, 172, 172);
+$background-grey-dark: rgb(80, 79, 79);
+$background-dark: rgb(41, 41, 41);
+$background-succes: rgb(47, 90, 68);
+$background-error: rgb(238, 238, 238);
+
+$succes: rgb(132, 230, 157);
+$error: rgb(230, 82, 82);
+
+// Responsive down size
+$media-breackpoint-down-xs: 413.98px;
+$media-breackpoint-down-sm: 500.798px;
+$media-breackpoint-down-md: 767.98px;
+$media-breackpoint-down-lg: 991.98px;
+$media-breackpoint-down-xs: 1199.98px;
+
+// Ronsive up size
+$media-breackpoint-up-xs: 320px;
+$media-breackpoint-up-sm: 576px;
+$media-breackpoint-up-md: 768px;
+$media-breackpoint-up-lg: 992px;
+$media-breackpoint-up-xs: 1200px;
